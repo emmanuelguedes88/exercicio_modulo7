@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+}
+
+.container {
+    max-width: 1280px;
+    background-color: rgb(206, 204, 159);
+    padding: 60px
+    
+  
+}
+
+form input, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: rgb(29, 70, 47);
+    color: rgb(214, 226, 238);
+    cursor: pointer;
+    
+}
+
+
+
+form button:hover {
+    background-color: 
+    rgb(110, 139, 139);
+}
+
+input:focus {
+    outline-color: rgb(73, 70, 66);
+}
+
+h1, h2 {
+    margin: 2px 0;
+
+}
+
+.content {
+    display:flex;
+    flex-direction: column; 
+    justify-content:center; 
+    align-items:center; 
+    gap: 10px;
+}
+
+#mensagem {
+    
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px; 
+    width: fit-content;
+}
+
+#mensagem.valido {
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+#mensagem.invalido {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
